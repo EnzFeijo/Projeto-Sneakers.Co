@@ -42,29 +42,72 @@ header {
 
 }
 
+
 #img1 {
+    transition: all 0.5s;
+    cursor: pointer;
     background-image: url('../img/1.jpg');
     border-radius: 45;
 }
 
+#img1:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
 #img2 {
+    transition: all 0.5s;
+    cursor: pointer;
     background-image: url('../img/2.jpg');
 }
 
+#img2:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
 #img3 {
+    transition: all 0.5s;
+    cursor: pointer;
     background-image: url('../img/3.jpg');
 }
 
+#img3:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
 #img4 {
+    transition: all 0.5s;
+    cursor: pointer;
     background-image: url('../img/4.jpg');
 }
 
+#img4:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
 #img5 {
+    transition: all 0.5s;
+    cursor: pointer;
     background-image: url('../img/5.jpg');
 }
 
+#img5:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
 #img6 {
+    transition: all 0.5s;
+    cursor: pointer;
     background-image: url('../img/6.jpg');
+}
+
+#img6:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 h3 {
